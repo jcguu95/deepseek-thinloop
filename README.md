@@ -62,8 +62,3 @@ Tools handle *mechanical* correctness. **You handle *judgment* correctness** —
 a sharp brief, restrained intervention (signal, not the diagnosed answer), running
 the real path before you trust green, reviewing before you merge. That discipline
 is the project's spine; see [`DISCIPLINE.md`](DISCIPLINE.md).
-
----
-
-詳細的繁體中文文件見 [`README.zh-TW.md`](README.zh-TW.md)。日常開發以繁體中文進行;
-這份英文 README 只是公開門面。
