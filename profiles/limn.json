@@ -1,0 +1,11 @@
+{
+  "name": "limn",
+  "project_desc": "limn 這個 PDF 閱讀器 repo（SBCL backend + Qt frontend + JSON socket wire）",
+  "sandbox_image": "limn-openhands-runtime:0.57.2",
+  "preflight": "/Users/jin/data/local/projects/sioyek-core/meta/openhands/check-lock-sync.sh",
+  "verify_command": "ulimit -n 8192 && nix develop /limn#docker --command sbcl --script backend/tests/unit/run-unit.lisp 2>&1 | tail -60",
+  "verify_hint": "ulimit -n 8192 && nix develop /limn#docker --command sbcl --script backend/tests/unit/run-unit.lisp",
+  "parser": "limn-lisp",
+  "baseline_file": "limn-baseline.txt",
+  "rules_file": "CLAUDE.md"
+}
